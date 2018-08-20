@@ -1,76 +1,71 @@
-----------------------------------------------------
-----------------------------------------------------
-====================================================
-Modelowanie scen 3D z wykorzystaniem Pixi.js
-Aplikacja internetowa
-====================================================
-----------------------------------------------------
-----------------------------------------------------
+
+#Modelowanie scen 3D z wykorzystaniem Pixi.js
+##Aplikacja internetowa
+
 Praca licencjacka wykonana pod kierunkiem  
 dr hab. Barbara Strug 
 ----------------------------------------------------
-Uniwersytet Jagielloñski w Krakowie 
-Wydzia³ Fizyki, Astronomii i Informatyki Stosowanej 
+Uniwersytet JagielloÅ„ski w Krakowie 
+WydziaÅ‚ Fizyki, Astronomii i Informatyki Stosowanej 
 ----------------------------------------------------
 
-Autor: Aleksandra Pó³torak
+Autor: [Aleksandra PÃ³Å‚torak](http://aleksandra-poltorak.pl)
 
-----------------------------------------------------
 
 =================================
-Spis treœci
+##Spis treÅ›ci
 =================================
 1. Instalacja
 2. Sterowanie
 
 ---------------------------------
-1. Instalacja
+##1. Instalacja
 ---------------------------------
 
-Aplikacja mo¿e byæ uruchomiona na dowolnym systemie operacyjnym, na którym
-zainstalowana jest jedna z kompatybilnych przegl¹darek internetowych.
-Wspierane przegl¹darki:
+Aplikacja moÅ¼e byÄ‡ uruchomiona na dowolnym systemie operacyjnym, na ktÃ³rym
+zainstalowana jest jedna z kompatybilnych przeglÄ…darek internetowych.
+Wspierane przeglÄ…darki:
 - Google Chrome 9+
 - Firefox 4+ 
 - Safari 5.1+ 
 - Opera 12+ 
 - Internet Explorer 11+
 
-Aby uruchomiæ aplikacjê wymagane jest posiadanie serwera WWW, takiego jak
+Aby uruchomiÄ‡ aplikacjÄ™ wymagane jest posiadanie serwera WWW, takiego jak
 Apache. 
 
-Jednym ze sposobów jego instalacji jest œci¹gniêcie pakietu XAMPP. 
+Jednym ze sposobÃ³w jego instalacji jest Å›ciÄ…gniÄ™cie pakietu XAMPP. 
 
-Instrukcja aplikacji krok po kroku z u¿yciem XAMPP
+###Instrukcja aplikacji krok po kroku z uÅ¼yciem XAMPP
 --------------------------------------------------
 1) Pobierz pakiet XAMPP ze strony https://www.apachefriends.org/pl/index.html .
-2) Zainstaluj pakiet XAMPP w wybranej lokalizacji. W razie problemów z instalacj¹ 
-   instrukcja dostêpna jest na stronie https://www.youtube.com/watch?v=h6DEDm7C37A .
-3) Uruchom aplikacjê XAMPP Control Panel i w³¹cz serwer Apache za pomoc¹ przycisku 
+2) Zainstaluj pakiet XAMPP w wybranej lokalizacji. W razie problemÃ³w z instalacjÄ… 
+   instrukcja dostÄ™pna jest na stronie https://www.youtube.com/watch?v=h6DEDm7C37A .
+3) Uruchom aplikacjÄ™ XAMPP Control Panel i wÅ‚Ä…cz serwer Apache za pomocÄ… przycisku 
    'Start'.
-4) ZnajdŸ folder 'htdocs' w lokalizacji, w której zosta³ zainstalowany XAMPP.
+4) ZnajdÅº folder 'htdocs' w lokalizacji, w ktÃ³rej zostaÅ‚ zainstalowany XAMPP.
    .../xampp/htdocs/
-5) W folderze 'htdocs' utwórz folder 'aplikacja' i rozpakuj pliki projektu 
+5) W folderze 'htdocs' utwÃ³rz folder 'aplikacja' i rozpakuj pliki projektu 
    z archiwum 'aplikacja.zip' do utworzonego folderu.
    .../xampp/htdocs/aplikacja/
-6) Otwórz kompatybiln¹ przegl¹darkê internetow¹ i w pasku adresu wpisz:
+6) OtwÃ³rz kompatybilnÄ… przeglÄ…darkÄ™ internetowÄ… i w pasku adresu wpisz:
    localhost/aplikacja/
 
 
 ---------------------------------
-2. Sterowanie
+##2. Sterowanie
 ---------------------------------
 
-Do sterowania modelem u¿ywa siê myszki i klawiatury.
+Do sterowania modelem uÅ¼ywa siÄ™ myszki i klawiatury.
 
-- Aby obracaæ kamer¹ wokó³ œrodka widoku nale¿y wcisn¹æ lewy przycisk myszy 
-  i poruszaæ myszk¹ w dowolnie wybranym kierunku.
-- Aby przesun¹æ kamerê nale¿y wcisn¹æ prawy przycisk myszy i poruszaæ
-  myszk¹ w wybranym kierunku
+- Aby obracaÄ‡ kamerÄ… wokÃ³Å‚ Å›rodka widoku naleÅ¼y wcisnÄ…Ä‡ lewy przycisk myszy 
+  i poruszaÄ‡ myszkÄ… w dowolnie wybranym kierunku.
+- Aby przesunÄ…Ä‡ kamerÄ™ naleÅ¼y wcisnÄ…Ä‡ prawy przycisk myszy i poruszaÄ‡
+  myszkÄ… w wybranym kierunku
   lub
-  u¿yæ strza³ek na klawiaturze.
-- Aby przybli¿yæ lub oddaliæ kamerê nale¿y obracaæ kó³kiem myszy.
+  uÅ¼yÄ‡ strzaÅ‚ek na klawiaturze.
+- Aby przybliÅ¼yÄ‡ lub oddaliÄ‡ kamerÄ™ naleÅ¼y obracaÄ‡ kÃ³Å‚kiem myszy.
 
 ----------------------------------------------------
 ----------------------------------------------------
-© Aleksandra Pó³torak
+Â© Aleksandra PÃ³Å‚torak
